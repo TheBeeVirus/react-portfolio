@@ -153,6 +153,8 @@ nav ul li {
 }
 
 .typed-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-variant: small-caps;
   font-size: 2rem;
   color: var(--color-navSelect);
 }
