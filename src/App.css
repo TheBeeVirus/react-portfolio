@@ -130,7 +130,6 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  z-index: -2;
 }
 
 .hero-info {
@@ -183,11 +182,4 @@ nav ul li {
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
   box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5) !important;
-}
-
-.tsparticles-canvas-el {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  z-index: -1;
 }
