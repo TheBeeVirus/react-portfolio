@@ -20,6 +20,7 @@ body {
 
 .navbar {
   background-color: var(--color-navBG);
+  z-index: 2;
 }
 
 .container-fluid {
@@ -87,6 +88,7 @@ nav ul li {
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
+  z-index: 3;
 }
 
 /* Style the social media icons with color, if you want */
@@ -119,4 +121,73 @@ nav ul li {
 .youtube {
   background: #bb0000;
   color: white;
+}
+
+/* ================================ About.js ================================ */
+
+.about-wrapper {
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),url(Images/joel-filipe-k8apfKm-Md4-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-info {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero-info h1 {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-forecolor);
+  font-variant: small-caps;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--color-navSelect);
+}
+
+.btn-contact {
+  border: 1px solid var(--color-navSelect);
+  font-variant: small-caps;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--color-navSelect);
+  margin: 2rem;
+}
+
+.btn-outline-primary {
+  color: var(--color-navSelect) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border-color: var(--color-navSelect) !important;
+}
+
+.btn-outline-primary:hover {
+  color: var(--color-navBG) !important;
+  background-color: var(--color-navSelect) !important;
+  border-color: var(--color-navSelect) !important;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5) !important;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
