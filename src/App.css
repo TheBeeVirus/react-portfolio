@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
 
 :root {
   --color-background: #ffffff;
@@ -22,7 +24,8 @@
 }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif !important;
+  /*font-family: 'Roboto Condensed', sans-serif !important;*/
+  font-family: "Baloo 2", cursive;
   background-color: var(--color-background) !important;
   color: var(--color-forecolor) !important;
 }
@@ -38,7 +41,8 @@ body {
 }
 
 nav a.navbar-brand {
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Fuggles', cursive;
   font-variant: small-caps;
   color: var(--color-navBrand) !important;
 }
@@ -103,7 +107,8 @@ nav ul li {
 
 
 .hero-info {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Fuggles', cursive;
+  /*font-family: 'Roboto Condensed', sans-serif;*/
   /*display: flex;
   flex-direction: column;
   justify-content: center;
@@ -118,13 +123,15 @@ nav ul li {
 }
 
 .hero-info h1 {
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Fuggles', cursive;
   color: var(--color-abtMainText);
   font-variant: small-caps;
 }
 
 .hero-info h2 {
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Fuggles', cursive;
   font-size: 1rem;
   color: var(--color-abtMainText);
   font-variant: small-caps;
@@ -138,7 +145,8 @@ nav ul li {
 
 .typed-text {
   margin-left: 0.35rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  /*font-family: 'Roboto Condensed', sans-serif;*/
+  font-family: 'Fuggles', cursive;
   font-variant: small-caps;
   color: var(--color-abtTypedText);
 }
@@ -163,6 +171,7 @@ nav ul li {
 }
 
 .about-info p {
+  font-family: "Baloo 2", cursive;
   color: var(--color-abtMainText);
   text-align: justify;
   text-justify: inter-word;
