@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@400;900&display=swap');
 
 :root {
   --color-background: #ffffff;
@@ -16,10 +15,17 @@
   --color-navHover: #86aa44;
 
   --color-abtMainText: #ffffff;
+  --color-abtMainTextShadow: #1d1705;
   --color-abtGradLight: #00cdac;
   --color-abtGradDark: #02aab0;
   --color-abtTypedText: #cbdf33;
-  --color-abtButton:
+  --color-abtButtonBG: transparent;
+  --color-abtButtonOutline: #AEBD38;
+  --color-abtButtonText: #aebd38;
+  --color-abtButtonTextHover: #ffffff;
+  --color-abtButtonBGHover: #aebd38;
+  --color-abtButtonOutlineHover: #aebd38;
+  --color-abtButtonShadow: #c7df14a2;
 
 }
 
@@ -33,6 +39,16 @@ body {
 
 .navbar {
   background-color: var(--color-navBG);
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { 
+    opacity: 0;
+  }
+  to { 
+    opacity: 1;
+  }
 }
 
 .container-fluid {
@@ -42,7 +58,8 @@ body {
 
 nav a.navbar-brand {
   /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Fuggles', cursive;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-weight: 900;
   font-variant: small-caps;
   color: var(--color-navBrand) !important;
 }
@@ -93,7 +110,7 @@ nav ul li {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),url(Images/joel-filipe-k8apfKm-Md4-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  /*height: 100vh;*/
+  height: 100vh;
 }
 
 @media screen and (min-width: 875px) { 
@@ -107,7 +124,7 @@ nav ul li {
 
 
 .hero-info {
-  font-family: 'Fuggles', cursive;
+  font-family: 'Encode Sans SC', sans-serif;
   /*font-family: 'Roboto Condensed', sans-serif;*/
   /*display: flex;
   flex-direction: column;
@@ -120,21 +137,68 @@ nav ul li {
   left: 0;
   right: 0;
   */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.hero-info img {
+  height: auto;
+  width: auto;
+  max-height: 200px;
+  max-width: 200px;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid var(--color-abtButtonOutline);
+  box-shadow: 0 0 100px var(--color-abtButtonOutline);
+
 }
 
 .hero-info h1 {
   /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Fuggles', cursive;
+  font-family: 'Encode Sans SC', sans-serif;
   color: var(--color-abtMainText);
   font-variant: small-caps;
+  font-weight: 900;
+  font-size: 3.5vw;
 }
 
 .hero-info h2 {
   /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Fuggles', cursive;
-  font-size: 1rem;
+  font-family: 'Encode Sans SC', sans-serif;
+  /*font-size: 1.45rem;*/
+  font-size: 2vw;
   color: var(--color-abtMainText);
   font-variant: small-caps;
+}
+
+@media screen and (max-width: 675px) { 
+  .hero-info h1 {
+    font-size: 1.50rem !important;
+  }
+  .hero-info h2 {
+    font-size: 0.85rem !important;
+  }
 }
 
 .text-about-gradient {
@@ -146,28 +210,27 @@ nav ul li {
 .typed-text {
   margin-left: 0.35rem;
   /*font-family: 'Roboto Condensed', sans-serif;*/
-  font-family: 'Fuggles', cursive;
+  font-family: 'Encode Sans SC', sans-serif;
   font-variant: small-caps;
   color: var(--color-abtTypedText);
 }
 
 .btn-outline-primary {
-  color: var(--color-navSelect) !important;
-  background-color: transparent !important;
+  color: var(--color-abtButtonText) !important;
+  background-color: var(--color-abtButtonBG) !important;
   background-image: none !important;
-  border-color: var(--color-navSelect) !important;
-  /*width: 12.5rem;*/
+  border-color: var(--color-abtButtonOutline) !important;
 }
 
 .btn-outline-primary:hover {
-  color: var(--color-navBG) !important;
-  background-color: var(--color-navSelect) !important;
-  border-color: var(--color-navSelect) !important;
+  color: var(--color-abtButtonTextHover) !important;
+  background-color: var(--color-abtButtonBGHover) !important;
+  border-color: var(--color-abtButtonOutlineHover) !important;
 }
 
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
-  box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem var(--color-abtButtonShadow) !important;
 }
 
 .about-info p {
@@ -175,6 +238,8 @@ nav ul li {
   color: var(--color-abtMainText);
   text-align: justify;
   text-justify: inter-word;
+  text-shadow: 0px 0px 20px var(--color-abtMainTextShadow) !important;
+  animation: 1s ease-out 0s 1 slideInFromRight;
 }
 
 /* ================================ Social Bar =============================*/

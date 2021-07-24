@@ -2,9 +2,9 @@ import React from 'react'
 
 const Education = () => {
     return (
-        <div>
-            
-        </div>
+        <section id="education" className="d-flex min-vh-100">
+            <div>Todo: Education</div>
+        </section>
     )
 }
 

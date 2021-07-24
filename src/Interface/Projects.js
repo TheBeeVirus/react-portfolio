@@ -2,9 +2,9 @@ import React from 'react'
 
 const Projects = () => {
     return (
-        <div>
-            
-        </div>
+        <section id="projects" className="d-flex min-vh-100">
+            <div>Todo: Projects</div>
+        </section>
     )
 }
 

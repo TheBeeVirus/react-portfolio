@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div>
-            
-        </div>
+        <section id="contact" className="d-flex min-vh-100">
+            <div>Todo: Contact</div>
+        </section>
     )
 }
 
