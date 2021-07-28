@@ -2,6 +2,7 @@ import React from 'react';
 import './CSS/Projects.css';
 import CurProjectVideo from '../Videos/CurProject.mp4';
 import FeaturedProject from '../Variables/FeaturedProject';
+import PastProjects from '../Variables/PastProjects';
 
 const Projects = () => {
     return (
@@ -37,6 +38,7 @@ const Projects = () => {
                         
                     </article>
                 )}
+                <PastProjects />
             </div>
         </section>            
     )
