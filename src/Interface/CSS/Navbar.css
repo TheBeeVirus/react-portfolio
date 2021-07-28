@@ -1,0 +1,66 @@
+/* ================================ Navbar.js ================================ */
+
+.navbar {
+    background-color: var(--color-navBG);
+    animation: fadein 2s;
+  }
+  
+  @keyframes fadein {
+    from { 
+      opacity: 0;
+    }
+    to { 
+      opacity: 1;
+    }
+  }
+  
+  .container-fluid {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+  
+  nav a.navbar-brand {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 900;
+    font-variant: small-caps;
+    color: var(--color-navBrand) !important;
+  }
+  nav a.nav-link {
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+  }
+  
+  nav ul li {
+    font-variant: small-caps;
+  }
+  
+  .navbar-nav > li > a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    margin-top: 0.25rem;
+    color: var(--color-deselected) !important;
+    border-top: 0.1875rem solid var(--color-navBG);
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: var(--color-navHover) !important;
+    border-top: 0.1875rem solid var(--color-navHover);
+  }
+  
+  /*.navbar-nav .nav-link.active {
+    color: var(--color-navSelect) !important;
+    border-top: 0.1875rem solid var(--color-navSelect);
+  }
+  
+  /*.navbar-nav .nav-link {
+    color: var(--color-navDeSelect) !important;
+    border-top: 0.1875rem solid var(--color-navBG);
+  }*/
+  
+  .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    color: var(--color-navSelect) !important;
+    text-shadow: 0px 0px 25px var(--color-navSelect);
+    border-top: 0.1875rem solid var(--color-navSelect);
+  
+  }

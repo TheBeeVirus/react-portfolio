@@ -1,4 +1,5 @@
 import React from 'react';
+import './CSS/Work.css';
 
 const Work = () => {
     return (

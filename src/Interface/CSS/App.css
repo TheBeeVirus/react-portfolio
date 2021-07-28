@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@400;900&display=swap');
+
+:root {
+  --color-background: #f2f4f6;
+  --color-forecolor: #505160;
+  --color-highlightbg: #68829E;
+  --color-selected: #AEBD38;
+  --color-deselected: #598234;
+
+  --color-navBrand: #b9831d;
+  --color-navBG: #f2f4f6;
+  --color-navSelect: #aebd38;
+  --color-navDeSelect: #598234;
+  --color-navHover: #86aa44;
+
+  --color-abtMainText: #ffffff;
+  --color-abtMainTextShadow: #1d1705;
+  --color-abtGradLight: #00cdac;
+  --color-abtGradDark: #02aab0;
+  --color-abtTypedText: #cbdf33;
+  --color-abtButtonBG: transparent;
+  --color-abtButtonOutline: #AEBD38;
+  --color-abtButtonText: #aebd38;
+  --color-abtButtonTextHover: #ffffff;
+  --color-abtButtonBGHover: #aebd38;
+  --color-abtButtonOutlineHover: #aebd38;
+  --color-abtButtonShadow: #c7df14a2;
+
+}
+
+body {
+  /*font-family: 'Roboto Condensed', sans-serif !important;*/
+  font-family: "Baloo 2", cursive;
+  background-color: var(--color-background) !important;
+  color: var(--color-forecolor) !important;
+}

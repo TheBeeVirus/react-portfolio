@@ -1,4 +1,4 @@
-import './App.css';
+import './Interface/CSS/App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import Navbar from './Interface/Navbar';
