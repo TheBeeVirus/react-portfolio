@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@400;900&display=swap');
 
 :root {
-  --color-background: #ffffff;
+  --color-background: #f2f4f6;
   --color-forecolor: #505160;
   --color-highlightbg: #68829E;
   --color-selected: #AEBD38;
   --color-deselected: #598234;
 
   --color-navBrand: #b9831d;
-  --color-navBG: #ffffff;
+  --color-navBG: #f2f4f6;
   --color-navSelect: #aebd38;
   --color-navDeSelect: #598234;
   --color-navHover: #86aa44;
