@@ -89,7 +89,7 @@ a, a:hover {
 }
 .card .card__bar {
   width: 0px;
-  height: 10px;
+  height: 10px !important;
   margin: 10px 0;
   border-radius: 5px;
   background-color: #aebd38;

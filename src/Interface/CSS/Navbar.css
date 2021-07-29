@@ -3,6 +3,7 @@
 .navbar {
     background-color: var(--color-navBG);
     animation: fadein 2s;
+    z-index: 9999;
   }
   
   @keyframes fadein {
