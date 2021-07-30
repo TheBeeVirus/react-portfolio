@@ -1,1 +1,18 @@
 /* ================================ Work.js ================================ */
+#work {
+    /* background-color: #02aab0;
+    background-image: linear-gradient(135deg,#02aab0,#00cdac); */
+    
+    background-color: var(--color-wrkBG);
+    background-image: linear-gradient(225deg, var(--color-wrkBG), var(--color-wrkBGGrad));
+}
+
+@media screen and (min-width: 875px) { 
+    #work {
+        padding-top: 8rem;
+        /* -webkit-clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%); */
+        -webkit-clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0 80%);
+        clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0 80%);
+    }
+}

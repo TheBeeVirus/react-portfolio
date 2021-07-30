@@ -1,1 +1,27 @@
 /* ================================ Contact.js ================================ */
+
+#contact {
+    color: var(--color-contactForecolor);
+    background-color: var(--color-contactBG);
+    background-color: var(--color-contactBG);
+    background-image: linear-gradient(27deg, var(--color-contactBG), var(--color-contactBGGrad));
+}
+
+#contact a {
+    margin-top: 3rem;
+    color:#7e8690;
+}
+
+#contact a:hover {
+    color: rgb(230, 233, 240)
+}
+
+@media screen and (min-width: 875px) { 
+    #contact {
+        padding-top: 10rem;
+        /* -webkit-clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%); */
+        -webkit-clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
+        clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
+    }
+}

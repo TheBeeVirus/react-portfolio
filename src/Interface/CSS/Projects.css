@@ -89,11 +89,15 @@ a, a:hover {
 }
 .card .card__bar {
   width: 0px;
-  height: 10px !important;
-  margin: 10px 0;
+  min-height: 5px !important;
+  margin: 0px 0 20px;
   border-radius: 5px;
   background-color: #aebd38;
   transition: width 0.2s ease;
+}
+
+.card:hover .card__bar {
+  width: 100%;
 }
 
 .card .card__subtitle {
@@ -101,10 +105,6 @@ a, a:hover {
 }
 .card .card__subtitle i {
   margin-right: 1rem;
-}
-
-.card:hover .card__bar {
-  width: 100%;
 }
 
 .card .card__text {
@@ -155,11 +155,11 @@ a, a:hover {
   .card {
     flex-wrap: inherit;
   }
-  .card::before {
+  .card:nth-child(odd)::before {
     background-image: linear-gradient(-80deg, #f2f4f6, transparent 50%);
   }
 
-  .card:nth-child(2n)::before {
+  .card:nth-child(even)::before {
     background-image: linear-gradient(80deg, #f2f4f6, transparent 50%);
   }
 
@@ -191,18 +191,18 @@ a, a:hover {
   /* .card:hover .card__img {
     transform: scale(1.1);
   } */
-  .card:nth-child(2n+1) {
+  .card:nth-child(even) {
     flex-direction: row;
   }
-  .card:nth-child(2n+0) {
+  .card:nth-child(odd) {
     flex-direction: row-reverse;
   }
-  .card:nth-child(2n+1) .card__text::before {
-    left: -12px !important;
+  .card:nth-child(even) .card__text::before {
+    left: -35px !important;
     transform: rotate(4deg);
   }
-  .card:nth-child(2n+0) .card__text::before {
-    right: -12px !important;
+  .card:nth-child(odd) .card__text::before {
+    right: -25px !important;
     transform: rotate(-4deg);
   }
 }

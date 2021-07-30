@@ -2,6 +2,7 @@ import React from 'react';
 import Typed from 'react-typed';
 import './CSS/About.css';
 import UserProfile from '../Images/pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg';
+import ResumePDF from '../Files/JdBeechamResume.pdf';
 
 const About = () => {
     return (
@@ -22,8 +23,8 @@ const About = () => {
                         /> 
                     </h2>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-center">
-                        <button className="btn btn-outline-primary  me-md-4 mt-5" type="button">How to contact</button>
-                        <button className="btn btn-outline-primary mt-5" type="button">Download Resume</button>
+                        <a href="/#contact" className="btn btn-outline-primary  me-md-4 mt-5">How to contact</a>
+                        <a href={ResumePDF} className="btn btn-outline-primary mt-5" target="_blank" rel="noreferrer">Download Resume</a>
                     </div>
                 </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center about-info">

@@ -30,6 +30,13 @@
   --color-abtButtonOutlineHover: #aebd38;
   --color-abtButtonShadow: #c7df14a2;
 
+  --color-wrkBG: #ceec09;
+  --color-wrkBGGrad: #02adb0;
+
+  --color-contactBG: #2b3436;
+  --color-contactBGGrad: #425462;
+  --color-contactForecolor: #cacbda;
+
 }
 
 body {
