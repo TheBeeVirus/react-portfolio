@@ -10,12 +10,12 @@
 
 @media screen and (min-width: 875px) { 
     #work {
-        padding-top: 8rem;
+        padding-top: 10rem;
         padding-bottom: 25rem;
         /* -webkit-clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%);
         clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%); */
-        -webkit-clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0 80%);
-        clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0 80%);
+        -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0 90%);
+        clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0 90%);
     }
 }
 .main-timeline{
@@ -67,11 +67,13 @@
     top: 50%;
 }
 .main-timeline .title{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
     letter-spacing: 1px;
-    margin: 0 0 5px;
+    margin: 0 0 25px;
+    color: #000000;
 }
 .main-timeline .description{
     font-size: 16px;
@@ -115,7 +117,8 @@
 }
 .main-timeline .timeline:nth-child(4n+4) .timeline-year{ color: #2e86de; } */
 
-@media screen and (max-width:767px){
+/* 767? */
+@media screen and (max-width:990px){
     .main-timeline .timeline{
         width: 100%;
         padding: 50px 0 0 0;
