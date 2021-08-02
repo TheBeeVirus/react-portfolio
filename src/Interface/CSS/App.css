@@ -32,10 +32,12 @@
 
   --color-wrkBG: #ceec09;
   --color-wrkBGGrad: #02adb0;
-  --color-wrkDrkText: #378258;
-  --color-wrkLgtText: #ffff;
-  --color-cardLgtGrad: #aaca3d;
-  --color-cardDrkGrad: #378258;
+  --color-wrkTitle: #00615b;
+  --color-wrkDrkText: #022717;
+  --color-wrkLgtText: #262928;
+  --color-wrkTabBG: #ffffff;
+  --color-cardLgtGrad: #c1e251; /*brighter b4e40d */
+  --color-cardDrkGrad: #7bdca6;
   --color-wrkShadow: rgba(0, 0, 0, 0.5);
 
   --color-contactBG: #2b3436;

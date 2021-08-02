@@ -35,7 +35,6 @@
 .main-timeline .timeline-content{
     color: var(--color-wrkLgtText);
     background: linear-gradient(to right, var(--color-cardLgtGrad), var(--color-cardDrkGrad));
-    text-align: justify;
     padding: 20px 20px 20px 100px;
     border-radius: 0 20px 20px 0;
     box-shadow: 0 5px 5px var(--color-wrkShadow);
@@ -45,7 +44,7 @@
 .main-timeline .timeline-content:hover{ text-decoration: none; }
 .main-timeline .timeline-year{
     color: var(--color-wrkDrkText);
-    background-color: var(--color-wrkLgtText);
+    background-color: var(--color-wrkTabBG);
     font-size: 18px;
     font-weight: 600;
     text-align: center;
@@ -63,7 +62,7 @@
     font-size: 50px;
     transform: translateY(-50%);
     position: absolute;
-    left: 30px;
+    left: 20px;
     top: 50%;
 }
 .main-timeline .title{
@@ -73,13 +72,14 @@
     font-variant: small-caps;
     letter-spacing: 1px;
     margin: 0 0 25px;
-    color: #000000;
+    color: var(--color-wrkTitle);
 }
 .main-timeline .description{
     font-size: 16px;
     letter-spacing: 1px;
+    text-align: justify;
     margin: 0;
-    text-shadow: 0px 0px 18px var(--color-abtMainTextShadow) !important;
+    text-shadow: 0px 0px 65px var(--color-abtMainTextShadow) !important;
 }
 .main-timeline .timeline:nth-child(even){
     float: left;
