@@ -115,7 +115,7 @@ a, a:hover {
 }
 
 .card .card__preview-txt {
-  overflow: hidden;
+  /* overflow: hidden; */
   text-overflow: ellipsis;
   text-align: justify;
   /*height: 100%;*/
@@ -156,11 +156,11 @@ a, a:hover {
     flex-wrap: inherit;
   }
   .card:nth-child(odd)::before {
-    background-image: linear-gradient(-80deg, #f2f4f6, transparent 50%);
+    background-image: linear-gradient(85deg, #f2f4f6, transparent 50%);
   }
 
   .card:nth-child(even)::before {
-    background-image: linear-gradient(80deg, #f2f4f6, transparent 50%);
+    background-image: linear-gradient(225deg, #f2f4f6, transparent 50%);
   }
 
   .card .card__title {
@@ -170,7 +170,7 @@ a, a:hover {
     justify-content: start;
   }
   .card .card__img {
-    max-width: 50%;
+    max-width: 35%;
     max-height: 100%;
     transition: transform 0.3s ease;
   }
@@ -231,4 +231,5 @@ a, a:hover {
     background: #e1e5ea;
     /* background: #505160; */
   } 
+
 }

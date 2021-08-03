@@ -3,6 +3,24 @@ import './CSS/PastProjects.css';
 import PastProject from '../Variables/PastProject';
 
 const PastProjects = () => {
+
+    function createImage(pImg, pLink)
+    {
+        let tags = <img src={pImg} className="card__img" alt="Project" />;
+        if(pLink) {
+            tags = <a href={pLink} className="card__img_link" target="_blank" rel="noreferrer">{tags}</a>;
+        }
+        return tags;
+    }
+
+    function createProjectTitle(pName, pLink) {
+        let name = pName;
+        if (pLink){
+            name = <a href={pLink} target="_blank" rel="noreferrer">{name}</a>;
+        }
+        return name;
+    }
+
     return (
         <div className="container-sm py-2 pastProjects">
             <div className="h1 text-center text-dark" id="pageHeaderTitle">Past Projects</div>
@@ -17,11 +35,11 @@ const PastProjects = () => {
                         
                     <div className={index ? "carousel-item" : "carousel-item active" } key={index}>
                         <article className="card light">
-                            <a className="card__img_link" href="/#">
-                                <img src={project.image} className="card__img" alt="Project" />
-                            </a>
+                            {createImage(project.image, project.link)}
                             <div className="card__text t-dark">
-                                <h1 className="card__title"><a href="/#">{project.name}</a></h1>
+                                <h1 className="card__title">
+                                    {createProjectTitle(project.name, project.link)}
+                                </h1>
                                 <div className="card__bar"></div>
                                 <div className="card__subtitle small">
                                     <time dateTime="{project.dateFormat}">
