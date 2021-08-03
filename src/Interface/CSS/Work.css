@@ -32,6 +32,8 @@
     margin: 0 0 20px 20px;
     float: right;
 }
+
+
 .main-timeline .timeline-content{
     color: var(--color-wrkLgtText);
     background: linear-gradient(to right, var(--color-cardLgtGrad), var(--color-cardDrkGrad));
@@ -79,7 +81,7 @@
     letter-spacing: 1px;
     text-align: justify;
     margin: 0;
-    text-shadow: 0px 0px 65px var(--color-abtMainTextShadow) !important;
+    text-shadow: 0px 0px 85px var(--color-abtMainTextShadow) !important;
 }
 .main-timeline .timeline:nth-child(even){
     float: left;

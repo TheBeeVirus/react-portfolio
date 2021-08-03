@@ -118,14 +118,14 @@ a, a:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: justify;
-  height: 100%;
+  /*height: 100%;*/
 }
 .card .card__tagbox {
   color: white;
   display: flex;
   flex-flow: row wrap;
   font-size: 14px;
-  margin: 20px 0 0 0;
+  margin: 25px 0 0 0;
   padding: 0;
   justify-content: center;
 }
@@ -198,7 +198,7 @@ a, a:hover {
     flex-direction: row-reverse;
   }
   .card:nth-child(even) .card__text::before {
-    left: -35px !important;
+    left: -25px !important;
     transform: rotate(4deg);
   }
   .card:nth-child(odd) .card__text::before {

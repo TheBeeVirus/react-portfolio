@@ -9,8 +9,8 @@ const Projects = () => {
         <section id="projects" className="d-flex min-vh-100">
         	<div className="container py-2">
                 <div className="h1 text-center text-dark" id="pageHeaderTitle">Current Project</div>
-                {FeaturedProject.map( project =>
-                    <article className="card light">
+                {FeaturedProject.map( (project, index) =>
+                    <article className="card light" key={index}>
                         <a className="card__img_link" href="/#">
                             <video autoPlay="autoPlay" muted loop={true} className="card__img">
                                 <source src={CurProjectVideo} type="video/mp4" />
@@ -30,7 +30,7 @@ const Projects = () => {
                             <h1 className="card__title"><a href="/#">Core Skills</a></h1>
                             <ul className="card__tagbox">
                                 {project.skills.map((skill, i) =>
-                                    <li key={skill.skillName} className="tag__item"><i className={skill.fontAwesome}></i>{skill.skillName}</li>
+                                    <li key={i} className="tag__item"><i className={skill.fontAwesome}></i>{skill.skillName}</li>
                                 )}
                             </ul>
                         </div>

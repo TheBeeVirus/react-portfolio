@@ -5,20 +5,20 @@ import WorkHistory from '../Variables/WorkHistory'
 const Work = () => {
     return (
         <section id="work" className="d-flex min-vh-100">
-            <div class="container">
+            <div className="container">
                 <div className="h1 text-center text-light" id="pageHeaderTitle">Work History</div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="main-timeline">
-                            {WorkHistory.map( job => 
-                                <div class="timeline">
-                                    <div class="timeline-content">
-                                        <span class="timeline-year">{job.year}</span>
-                                        <div class="timeline-icon">
-                                            <i class={job.icon}></i>
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="main-timeline">
+                            {WorkHistory.map( (job, id) => 
+                                <div className="timeline" key={id}>
+                                    <div className="timeline-content">
+                                        <span className="timeline-year">{job.year}</span>
+                                        <div className="timeline-icon">
+                                            <i className={job.icon}></i>
                                         </div>
-                                        <h3 class="title">{job.title}</h3>
-                                        <p class="description">
+                                        <h3 className="title">{job.title}</h3>
+                                        <p className="description">
                                         {job.description}
                                         </p>
                                     </div>
