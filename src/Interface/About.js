@@ -1,7 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
 import './CSS/About.css';
-import UserProfile from '../Images/pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg';
+import UserProfile from '../Images/JDBeecham.jpeg';
 import ResumePDF from '../Files/JdBeechamResume.pdf';
 
 const About = () => {
