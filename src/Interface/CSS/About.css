@@ -11,7 +11,7 @@
   
   @media screen and (min-width: 875px) { 
     #about {
-      min-height: 29.6875rem !important;
+      /* min-height: 29.6875rem !important; */
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     }
