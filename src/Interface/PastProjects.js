@@ -24,7 +24,7 @@ const PastProjects = () => {
     return (
         <div className="container-sm py-2 pastProjects">
             <div className="h1 text-center text-dark" id="pageHeaderTitle">Past Projects</div>
-            <div id="carouselProjects" className="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div id="carouselProjects" className="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-nextWhenVisible="true" data-bs-interval="15000">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="1" aria-label="Slide 2"></button>

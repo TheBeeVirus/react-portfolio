@@ -7,7 +7,7 @@ const FeaturedProjects = [
     {
         title: "Untitled Project (Codename: Bee Hive iOS Z)",
         date: "June 2021",
-        discription: "It’s in its very early stages of progress, but I am currently working on building an iOS game but have not given it a name yet. It is going to be an isometric (pseudo-3d) style adventure game. I am currently using Blender for the 3D art, SwiftUI for the interface, and SceneKit to drive the graphics. I made a mockup of the interface using Figma. I am also building a Node.js server with Socket.IO to drive the backend. Right now, the server only accepts the connections, but soon will put logic on it. I will update this as I progress.",
+        discription: "It’s in its very early stages of progress, but I am currently working on building an iOS game. I still have not given it a name yet. It is going to be an isometric (pseudo-3d) style adventure game. I am currently using Blender for the 3D art, SwiftUI for the interface, and SceneKit to drive the graphics. I made a mockup of the interface using Figma. As I moved the design from Figma to Xcode, I am not liking it. I will revisit that later. I am trying not to focus so hard on certain elements, because that makes me lose too much time. I am also building a Node.js server with Socket.IO to drive the backend. Right now, the server only accepts the connections, but soon will put logic on it. I will update this as I progress.",
         bgImage: "https://picsum.photos/1000/1000",
         skills: [
             {
