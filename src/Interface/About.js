@@ -10,9 +10,9 @@ const About = () => {
             <div className="row">
                 <div className="col-lg-6 d-flex flex-column justify-content-center mb-3 hero-info">
                     <img src={UserProfile} alt="Profile" className="img-fluid rounded-circle mx-auto mb-5"></img>
-                    <h1>Hello, I am <span className="text-about-gradient">Jd Beecham.</span></h1>
+                    <h1>Hello, I'm <span className="text-about-gradient">Jd Beecham.</span></h1>
 
-                    <h2 className="mb-5">Roles I can do are 
+                    <h2 className="mb-5">I am a  
                         <Typed 
                             className="typed-text"
                             strings = {[" iOS Developer.", " Frontend Developer.", " Backend Developer.", " Game Developer.", " Softare Tester."]}
@@ -28,7 +28,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center about-info">
-                    <p className="">I am a Developer that has a diverse background in different areas. I was last working as a Regional Field Service Technician until I lost my job due to COVID. I was responsible for troubleshooting, installing, and repairing eye Doctor’s and Surgeon’s equipment across four states. I am currently trying to switch fields and get back into a career in software. I worked before as a Software Tester and Freelance Web Developer in the past. I have a degree in programming, but don’t use it. I miss programming, so I did a few online bootcamps to brush up on the technologies I missed out on. I am going to start at the bottom and work my way up to the position I want, which is either Backend Developer or iOS Developer. I enjoy both of those areas the most.</p>
+                    <p>I am a Developer with a diverse background in different fields. My last role was a Regional Field Service Technician until I lost my job due to COVID. I was responsible for troubleshooting, installing, and repairing Ophthalmologists and Surgeons equipment across four states. I am transitioning into a career in software. I have worked as a Software Tester and Freelance Web Developer. Also, I have a degree in programming which I intend to use. I enjoy programming, so I have completed online bootcamps to brush up on the technologies I missed out on. I am starting at the bottom and working my way up to the position I want as a Backend Developer or iOS Developer. I enjoy both of those areas the most.</p>
                 </div>
             </div>
         </section>
