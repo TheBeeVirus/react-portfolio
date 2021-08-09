@@ -9,11 +9,12 @@ const Education = () => {
                 <div className="h1 text-center text-dark" id="pageHeaderTitle">Education</div>
                 {Schools.map( (school, index) =>
                     <article className="card light" key={index}>
-                         <a className="card__img_link" href="/#">
+                         {/* <a className="card__img_link" href="/#"> */}
+                         {/* Was going to add Certificate Links, maybe will do that later. */}
                                 <img src={school.image} className="card__img" alt="Project" />
-                        </a>
+                        {/* </a> */}
                         <div className="card__text t-dark">
-                            <h1 className="card__title"><a href="/#">{school.name}</a></h1>
+                            <h1 className="card__title">{/* <a href="/#"> */}{school.name}{/*</a>*/}</h1>
                             <div className="card__bar"></div>
                             <div className="card__degree">{school.degree}</div>
                             <div className="card__subtitle small">

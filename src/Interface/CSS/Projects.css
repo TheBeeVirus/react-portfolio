@@ -36,9 +36,10 @@ a, a:hover {
   /* background: #f3f5f7; */
   background-color: #e1e5ea;
 }
-.card:nth-child(2n)::before {
+/* .card:nth-child(2n)::before {
   background-image: linear-gradient(30deg, #f2f4f6, transparent 50%);
-}
+} */
+
 .card:before {
   content: "";
   position: absolute;
@@ -50,9 +51,10 @@ a, a:hover {
   opacity: 1;
   border-radius: 10px;
 }
-.card::before {
+
+/* .card::before {
   background-image: linear-gradient(-30deg, #f2f4f6, transparent 50%);
-}
+} */
 
 .card .t-dark {
   color: #18151f;
@@ -155,13 +157,14 @@ a, a:hover {
   .card {
     flex-wrap: inherit;
   }
-  .card:nth-child(odd)::before {
+  
+  /* .card:nth-child(odd)::before {
     background-image: linear-gradient(85deg, #f2f4f6, transparent 50%);
   }
 
   .card:nth-child(even)::before {
     background-image: linear-gradient(291deg, #f2f4f6, transparent 50%);
-  }
+  } */
 
   .card .card__title {
     font-size: 2rem;

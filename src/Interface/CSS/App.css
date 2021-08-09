@@ -30,14 +30,14 @@
   --color-abtButtonOutlineHover: #aebd38;
   --color-abtButtonShadow: #c7df14a2;
 
-  --color-wrkBG: #ceec09;
-  --color-wrkBGGrad: #02adb0;
+  --color-wrkBG: #ceec097c; /* old color ceec09 */
+  --color-wrkBGGrad: #02adb080; /* old color 02adb0  */
   --color-wrkTitle: #00615b;
   --color-wrkDrkText: #022717;
   --color-wrkLgtText: #262928;
   --color-wrkTabBG: #ffffff;
-  --color-cardLgtGrad: #c1e251; /*brighter b4e40d */
-  --color-cardDrkGrad: #7bdca6;
+  --color-cardLgtGrad: #ffffff8f; /* brighter b4e40d, old color c0e251 */
+  --color-cardDrkGrad: #ffffff; /* old color 7bdca6 */
   --color-wrkShadow: rgba(0, 0, 0, 0.5);
 
   --color-contactBG: #2b3436;
