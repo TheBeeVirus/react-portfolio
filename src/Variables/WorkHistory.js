@@ -5,9 +5,9 @@ const WorkHistory = [
         icon: "fas fa-tools",
         title: "Field Service Technician / Walman Instruments",
         description: [
-            "Responsible for installing, providing maintenance, troubleshooting and repairs to eye doctors and surgeons in Washington, Oregon, Idaho and Montana.",
+            "Responsible for installing, maintaining, troubleshooting and repairing Ophthalmologists and Surgeons equipment in Washington, Oregon, Idaho and Montana",
             "Entrusted with a company vehicle and credit card.",
-            "Maintain monthly travel and expense reports.",
+            "Maintained monthly travel and expense reports.",
             "Helped customers budget repairs and plan out maintenance services to keep costs low."
         ]
     },
@@ -17,7 +17,7 @@ const WorkHistory = [
         title: "Certified Lead Lab Technician / LensCrafters",
         description: [
             "Responsible for crafting prescription lenses to fit in a frames.",
-            "Installed, maintained, troubleshooted and repaired all the equipment in the lab and doctor’s office.",
+            "Installed, maintained, troubleshooted and repaired equipment in the lab and doctor’s office.",
             "Responsible for the lab’s budget and ordering all the supplies.",
             "Entrusted by the regional manager to train new employees and lab managers for multiple locations.",
             "My lab was consistently ranked within the top 10 in the company out of over 1000 labs, which is based off of quality of work and workload."
