@@ -18,9 +18,11 @@ const Work = () => {
                                             <i className={job.icon}></i>
                                         </div>
                                         <h3 className="title">{job.title}</h3>
-                                        <p className="description">
-                                        {job.description}
-                                        </p>
+                                        <ul className="fa-ul description">
+                                        {job.description.map((item, idKey) => 
+                                            <li key={idKey}><span class="fa-li"><i class="fas fa-check"></i></span>{item}</li>
+                                        )}
+                                        </ul>
                                     </div>
                                 </div>
                             )}

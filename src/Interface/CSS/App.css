@@ -39,6 +39,7 @@
   --color-cardLgtGrad: #ffffff8f; /* brighter b4e40d, old color c0e251 */
   --color-cardDrkGrad: #ffffff; /* old color 7bdca6 */
   --color-wrkShadow: rgba(0, 0, 0, 0.5);
+  --color-wrkIcon: rgba(49, 68, 44, 0.438);
 
   --color-contactBG: #2b3436;
   --color-contactBGGrad: #425462;

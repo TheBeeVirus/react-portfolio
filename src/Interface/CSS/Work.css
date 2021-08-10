@@ -8,7 +8,8 @@
     background-image: linear-gradient(225deg, var(--color-wrkBG), var(--color-wrkBGGrad));
 }
 
-@media screen and (min-width: 875px) { 
+/* 875? */
+@media screen and (min-width: 1200px) { 
     #work {
         padding-top: 10rem;
         padding-bottom: 25rem;
@@ -60,7 +61,7 @@
     top: 0;
 }
 .main-timeline .timeline-icon{
-    color: #fff;
+    color: var(--color-wrkIcon);
     font-size: 50px;
     transform: translateY(-50%);
     position: absolute;
@@ -73,15 +74,24 @@
     /* text-transform: uppercase; */
     font-variant: small-caps;
     letter-spacing: 1px;
-    margin: 0 0 25px;
+    margin: 15px 0 20px;
     color: var(--color-wrkTitle);
+    text-align: center;
 }
 .main-timeline .description{
     font-size: 16px;
     letter-spacing: 1px;
     text-align: justify;
-    margin: 0;
+    margin-left: 25px;
+    padding: 15px 25px;
     text-shadow: 0px 0px 85px var(--color-abtMainTextShadow) !important;
+}
+.main-timeline .description i {
+    color: var(--color-wrkIcon);
+}
+.main-timeline .description li {
+    padding-left: 15px;
+    padding-top: 15px;
 }
 .main-timeline .timeline:nth-child(even){
     float: left;
@@ -111,7 +121,7 @@
 .main-timeline .timeline:nth-child(even) .timeline-year{ color: var(--color-wrkDrkText); }
 
 /* 767? */
-@media screen and (max-width:990px){
+@media screen and (max-width:1200px){
     .main-timeline .timeline{
         width: 100%;
         padding: 50px 0 0 0;
