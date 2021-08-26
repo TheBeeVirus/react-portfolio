@@ -1,8 +1,36 @@
 import ReactPortPhoto from '../Images/PastProjects/ReactPortScreen.png';
 import Wolverine from '../Images/PastProjects/PSPXMenOriginsWolverine.jpg';
 import DoraLinks from '../Images/PastProjects/DoraLinksDoll.jpg';
+import Tipster from '../Images/PastProjects/Tipster_preview.gif';
 
 const PastProject = [
+    {
+        name: "Tipster",
+        image: Tipster,
+        link: "https://github.com/TheBeeVirus/Tipster",
+        date: "August 2021",
+        dateFormat: "2021-08",
+        description: "Made an iOS App that calculates tips for you and has an option to split among multiple people. Main reason for creating it was because I wanted to practice my SwiftUI skills and try out something I was reading about blurring the backgrounds. I also made it green themed for light mode, and blue themed for dark mode. Used Figma to hash out my colors and what I wanted it to look like. Code is available on GitHub.",
+        skills: [
+            {
+                name: "SwiftUI",
+                icon: "fab fa-swift"
+            },
+            {
+                name: "Figma",
+                icon: "fab fa-figma"
+            },
+            {
+                name: "Github",
+                icon: "fab fa-github"
+            },
+            {
+                name: "Xcode",
+                icon: "fas fa-code"
+            },
+            
+        ]
+    },
     {
         name: "React Portfolio Build",
         image: ReactPortPhoto,
