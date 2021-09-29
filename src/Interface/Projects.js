@@ -2,7 +2,7 @@ import React from 'react';
 import './CSS/Projects.css';
 import CurProjectVideo from '../Videos/BeeHiveiOSZ.mp4';
 import FeaturedProject from '../Variables/FeaturedProject';
-import PastProjects from '../Interface/PastProjects';
+import BetaPastProjects from '../Interface/BetaPastProjects';
 
 const Projects = () => {
     return (
@@ -38,7 +38,8 @@ const Projects = () => {
                         
                     </article>
                 )}
-                <PastProjects />
+                <div className="h1 text-center text-dark" id="pageHeaderTitle">Past Projects</div>
+                <BetaPastProjects />
             </div>
         </section>            
     )

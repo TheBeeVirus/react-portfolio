@@ -20,7 +20,7 @@ const Work = () => {
                                         <h3 className="title">{job.title}</h3>
                                         <ul className="fa-ul description">
                                         {job.description.map((item, idKey) => 
-                                            <li key={idKey}><span class="fa-li"><i class="fas fa-check"></i></span>{item}</li>
+                                            <li key={idKey}><span className="fa-li"><i className="fas fa-check"></i></span>{item}</li>
                                         )}
                                         </ul>
                                     </div>

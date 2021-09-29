@@ -2,13 +2,13 @@
 /* Main CSS Colors, Fonts and body. */
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@400;900&display=swap");
 
 :root {
   --color-background: #f2f4f6;
   --color-forecolor: #505160;
-  --color-highlightbg: #68829E;
-  --color-selected: #AEBD38;
+  --color-highlightbg: #68829e;
+  --color-selected: #aebd38;
   --color-deselected: #598234;
 
   --color-navBrand: #b9831d;
@@ -23,7 +23,7 @@
   --color-abtGradDark: #02aab0;
   --color-abtTypedText: #cbdf33;
   --color-abtButtonBG: transparent;
-  --color-abtButtonOutline: #AEBD38;
+  --color-abtButtonOutline: #aebd38;
   --color-abtButtonText: #aebd38;
   --color-abtButtonTextHover: #ffffff;
   --color-abtButtonBGHover: #aebd38;
@@ -44,7 +44,6 @@
   --color-contactBG: #2b3436;
   --color-contactBGGrad: #425462;
   --color-contactForecolor: #cacbda;
-
 }
 
 body {
@@ -52,4 +51,6 @@ body {
   font-family: "Baloo 2", cursive;
   background-color: var(--color-background) !important;
   color: var(--color-forecolor) !important;
+
+  scroll-behavior: smooth;
 }
