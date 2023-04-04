@@ -1,6 +1,29 @@
 
 const WorkHistory = [
     {
+        year: "2022 - Present",
+        icon: "fas fa-list",
+        title: "Supply Inventory Distribution Clerk / The Everett Clinic",
+        description: [
+            "Manage inventory for stock room and each department’s Pods.",
+            "Communicate with company buyers on equipment and items that are needed by departments.",
+            "Manage the mail and fax room, and make sure it ends up in the correct location.",
+            "Complete small repairs on equipment and clinic grounds.",
+            "Communicate and coordinate with BioMed, IT, or Venders on installs, maintenance, and repairs."
+        ]
+    },
+    {
+        year: "2021 - 2021",
+        icon: "fas fa-network-wired",
+        title: "Network Technician / TEKsystems",
+        description: [
+            "Contracted to Denali Advanced Integration to evaluate and inventory hospital’s network systems around the state of Washington.",
+            "Make sure company standards are being followed for security.",
+            "Ensure equipment is operating and up to date.",
+            "Report any equipment that is unplugged or shouldn’t be apart of the network."
+        ]
+    },
+    {
         year: "2019 - 2020",
         icon: "fas fa-tools",
         title: "Field Service Technician / Walman Instruments",
